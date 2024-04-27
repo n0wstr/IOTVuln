@@ -9,7 +9,7 @@
 
 D-Link DIR-823g A1V1.0.2B05 was found to contain a Null-pointer dereferences in `main` function of `upload_firmware.cgi`, which allows remote attackers to cause a Denial of Service (DoS) via a crafted input.
 
-![image-20240421163220274](./img/1.png)
+![image-20240421163220274](https://github.com/n0wstr/IOTVuln/blob/main/DIR-823g/UploadFirmware/img/1.png)
 
 ### Vulnerability details
 

