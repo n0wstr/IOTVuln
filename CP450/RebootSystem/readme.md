@@ -34,7 +34,7 @@ Referer: http://192.168.0.254/adm/settings.asp
 Cookie: SESSION_ID=2:1801026000:2
 
 {
-    "topicurl":"setting/RebootSystem",
+    "topicurl":"setting/RebootSystem"
 }
 ```
 
