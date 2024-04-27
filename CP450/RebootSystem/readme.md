@@ -1,4 +1,4 @@
-## CP450 backdoor for telnetd
+## CP450 Reboot
 
 ### Overview
 
