@@ -15,7 +15,7 @@ D-Link DIR-816  A2V1.1.0B05 was found to contain a command injection in `/goform
 
 Vulnerability occurs in `/goform/singlePortForwardDelete`. Attackers can control `v4` by setting the `DMZIPAddress`, then passed its value to `v32`, and finally call the `dosystem`.
 
-![2](C:\Users\dflac_961unic\Desktop\报洞\1\IOTVuln\DIR-816\SinglePortForwardDelete\img\2.png)
+![2](./img/2.png)
 
 Based on the cause of the vulnerability, attackers can arbitrarily execute the command by setting the `DMZIPAddress`.
 
